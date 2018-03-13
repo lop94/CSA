@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.consoleView = new RobotView.ConsoleView();
             this.SuspendLayout();
+            // 
+            // consoleView
+            // 
+            this.consoleView.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.consoleView.Console = null;
+            this.consoleView.Location = new System.Drawing.Point(3, 3);
+            this.consoleView.Name = "consoleView";
+            this.consoleView.Size = new System.Drawing.Size(211, 48);
+            this.consoleView.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(638, 455);
+            this.ClientSize = new System.Drawing.Size(217, 58);
+            this.Controls.Add(this.consoleView);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +54,7 @@
         }
 
         #endregion
+        private RobotView.ConsoleView consoleView;
     }
 }
 
