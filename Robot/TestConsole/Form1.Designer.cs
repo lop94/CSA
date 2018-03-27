@@ -35,7 +35,7 @@
             // 
             this.consoleView.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.consoleView.Console = null;
-            this.consoleView.Location = new System.Drawing.Point(3, 3);
+            this.consoleView.Location = new System.Drawing.Point(92, 39);
             this.consoleView.Name = "consoleView";
             this.consoleView.Size = new System.Drawing.Size(211, 48);
             this.consoleView.TabIndex = 1;
@@ -45,7 +45,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(217, 58);
+            this.ClientSize = new System.Drawing.Size(391, 155);
             this.Controls.Add(this.consoleView);
             this.Name = "Form1";
             this.Text = "Form1";

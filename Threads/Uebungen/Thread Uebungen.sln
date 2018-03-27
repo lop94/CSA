@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMax", "ProcessSynch\MinM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProc", "ProcessSynch\StartProc\StartProc.csproj", "{7489D027-0E88-4F8B-8035-45A83E69AFB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Join", "ConsoleApplication1\Test_Join.csproj", "{E1B10642-56CC-46D8-911E-A0E01142511E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7489D027-0E88-4F8B-8035-45A83E69AFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B10642-56CC-46D8-911E-A0E01142511E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B10642-56CC-46D8-911E-A0E01142511E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B10642-56CC-46D8-911E-A0E01142511E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B10642-56CC-46D8-911E-A0E01142511E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

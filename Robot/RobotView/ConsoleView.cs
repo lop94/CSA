@@ -18,6 +18,7 @@ namespace RobotView
             InitializeComponent();
         }
 
+        #region properties
         public RobotCtrl.RobotConsole Console
         {
             get
@@ -31,21 +32,21 @@ namespace RobotView
                 if(console != null)
                 {
                     // LEDs zuweisen
-                    this.ledView1.Led = console[Leds.Led1];
-                    this.ledView2.Led = console[Leds.Led2];
-                    this.ledView3.Led = console[Leds.Led3];
-                    this.ledView4.Led = console[Leds.Led4];
+                    this.ledView1.Led = console[RobotCtrl.Leds.Led1];
+                    this.ledView2.Led = console[RobotCtrl.Leds.Led2];
+                    this.ledView3.Led = console[RobotCtrl.Leds.Led3];
+                    this.ledView4.Led = console[RobotCtrl.Leds.Led4];
 
                     // Switches zuweisen
-                    this.switchView1.Myswitch = console[Switches.Switch1];
-                    this.switchView2.Myswitch = console[Switches.Switch2];
-                    this.switchView3.Myswitch = console[Switches.Switch3];
-                    this.switchView4.Myswitch = console[Switches.Switch4];
-
+                    this.switchView1.Myswitch = console[RobotCtrl.Switches.Switch1];
+                    this.switchView2.Myswitch = console[RobotCtrl.Switches.Switch2];
+                    this.switchView3.Myswitch = console[RobotCtrl.Switches.Switch3];
+                    this.switchView4.Myswitch = console[RobotCtrl.Switches.Switch4];
                 }
             }
         }
+        #endregion
 
-        
+
     }
 }

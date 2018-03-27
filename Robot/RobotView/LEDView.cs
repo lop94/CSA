@@ -41,8 +41,7 @@ namespace RobotView
             set
             {
                 led = value;
-                if (led != null)
-                    led.LedStateChanged += Led_LedStateChanged;
+                if (led != null) led.LedStateChanged += Led_LedStateChanged;
             }
         }
         #endregion
